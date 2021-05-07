@@ -14,5 +14,5 @@ The `*.html` and `*.md` files are reports of corresponding `*.R` scripts with th
 - **uavtune/**: This contains the main tunning codes that were run on `merced` cluster.
   - **uavout/**: has the built machine learning models. Can be downloded from [here](https://tinyurl.com/h4jbmjnp).
   - `universal_tune_doParallel.R` is the main file that runs the training. It is called  by individual training scripts. For example: to tune a BRT62 model, run the `BRT62.R` file on cluster with all it's dependencies (the other R files, the parameter .csv file, etc.).
-- **model_analysis/**: This folder has files that produce reports for each model. Uses `drake` R package.
-- **Reports/**: where produced reports are saved in `*.html` file
+- **model_analysis/**: This folder has files that produce model performance reports for each model. Uses `drake` R package. Understanding of `drake` package is requred to use the scripts.
+  - **Reports/**: where produced reports are saved in `*.html` file and performance summaries in `*.csv` filetype.
