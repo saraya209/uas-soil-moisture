@@ -1,2 +1,2 @@
 */Reports/** linguist-documentation
-#*.html linguist-detectable=false
+*.html linguist-detectable=false
